@@ -90,11 +90,11 @@
 		"@ljharb/eslint-config": "^17.5.1",
 		"aud": "^1.1.4",
 		"auto-changelog": "^2.2.1",
-		"eslint": "^7.20.0",
+		"eslint": "^7.23.0",
 		"evalmd": "^0.0.19",
 		"nyc": "^10.3.2",
 		"safe-publish-latest": "^1.1.4",
-		"tape": "^5.2.0"
+		"tape": "^5.2.2"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
