@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/Reflect.getPrototypeOf/compare/v1.0.1...v1.0.2) - 2021-10-03
+
+### Commits
+
+- [Deps] update `es-abstract` [`947bbb1`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/947bbb1bff0cc08ab80bb809a19771c6087e9fda)
+- [actions] update workflows` [`af4708d`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/af4708d75212ee5781b549b1ff86f903fc659e3f)
+
 ## [v1.0.1](https://github.com/es-shims/Reflect.getPrototypeOf/compare/v1.0.0...v1.0.1) - 2021-09-08
 
 ### Commits
