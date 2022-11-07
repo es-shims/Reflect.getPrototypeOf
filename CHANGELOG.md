@@ -5,6 +5,19 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Reflect.getPrototypeOf/compare/v1.0.2...v1.0.3) - 2022-11-07
+
+### Commits
+
+- [actions] reuse common workflows [`0a76d97`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/0a76d972c13cd319504d3eecf8e7e00e39327c88)
+- [meta] use `npmignore` to autogenerate an npmignore file [`c4861b4`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/c4861b45aeebddd1d998bdd44438b29e4bf974e8)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `safe-publish-latest`, `tape` [`e5352ab`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/e5352ab099f7104c085ffd2ee8fbfec69546fa2c)
+- [actions] update codecov uploader [`dbcedf8`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/dbcedf83e967e17316fc98fb18011c603bb54823)
+- [Deps] update `define-properties`, `es-abstract`, `globalthis`, `which-builtin-type` [`84fbfab`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/84fbfabe53774587be4748df303cec8acded7c0f)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`75dc8a3`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/75dc8a337f11f11a947241c968bb7f5b843a1d17)
+- [actions] update rebase action to use reusable workflow [`49463a7`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/49463a7a6d9aaa08c201ff4206efcade7a997175)
+- [Dev Deps] update `@es-shims/api` [`adf75cb`](https://github.com/es-shims/Reflect.getPrototypeOf/commit/adf75cb9dbda9052437a8e48e33da28dc52aa63c)
+
 ## [v1.0.2](https://github.com/es-shims/Reflect.getPrototypeOf/compare/v1.0.1...v1.0.2) - 2021-10-03
 
 ### Commits
