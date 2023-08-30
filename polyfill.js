@@ -1,6 +1,6 @@
 'use strict';
 
-var Type = require('es-abstract/2022/Type');
+var Type = require('es-abstract/2023/Type');
 var GetIntrinsic = require('get-intrinsic');
 
 var $TypeError = GetIntrinsic('%TypeError%');
