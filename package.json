@@ -62,7 +62,7 @@
 		"es-errors": "^1.3.0",
 		"get-intrinsic": "^1.2.4",
 		"gopd": "^1.0.1",
-		"which-builtin-type": "^1.1.4"
+		"which-builtin-type": "^1.2.0"
 	},
 	"devDependencies": {
 		"@es-shims/api": "^2.5.1",
