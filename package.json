@@ -1,6 +1,6 @@
 {
 	"name": "reflect.getprototypeof",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"description": "An ES2015 mostly-spec-compliant `Reflect.getPrototypeOf` sham/polyfill/replacement that works in as many engines as possible",
 	"main": "index.js",
 	"type": "commonjs",
