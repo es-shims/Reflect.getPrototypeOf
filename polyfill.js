@@ -8,7 +8,7 @@ var implementation = require('./implementation');
 
 var hasProto = [].__proto__ === Array.prototype; // eslint-disable-line no-proto
 
-var getDunder = require('./helpers/getDunder');
+var getDunder = require('dunder-proto/get');
 
 var getProto = function getPrototypeOf(value) {
 	if (Type(value) !== 'Object') {

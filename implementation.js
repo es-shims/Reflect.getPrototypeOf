@@ -9,7 +9,7 @@ var $TypeError = require('es-errors/type');
 var $gPO = GetIntrinsic('%Object.getPrototypeOf%', true);
 var $ObjectPrototype = GetIntrinsic('%Object.prototype%');
 
-var getDunder = require('./helpers/getDunder');
+var getDunder = require('dunder-proto/get');
 
 module.exports = function getPrototypeOf(O) {
 	if (Type(O) !== 'Object') {
