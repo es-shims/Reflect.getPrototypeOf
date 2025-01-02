@@ -2,7 +2,7 @@
 
 var GetIntrinsic = require('get-intrinsic');
 var IsCallable = require('es-abstract/2024/IsCallable');
-var Type = require('es-abstract/2024/Type');
+var isObject = require('es-abstract/helpers/isObject');
 var whichBuiltinType = require('which-builtin-type');
 var $TypeError = require('es-errors/type');
 
@@ -10,7 +10,7 @@ var gPO = require('get-proto');
 var $Object = require('es-object-atoms');
 
 module.exports = function getPrototypeOf(O) {
-	if (Type(O) !== 'Object') {
+	if (!isObject(O)) {
 		throw new $TypeError('Reflect.getPrototypeOf called on non-object');
 	}
 
