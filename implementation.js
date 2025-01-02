@@ -6,26 +6,18 @@ var Type = require('es-abstract/2024/Type');
 var whichBuiltinType = require('which-builtin-type');
 var $TypeError = require('es-errors/type');
 
-var $gPO = GetIntrinsic('%Object.getPrototypeOf%', true);
-var $ObjectPrototype = GetIntrinsic('%Object.prototype%');
-
-var getDunder = require('dunder-proto/get');
+var gPO = require('get-proto');
+var $Object = require('es-object-atoms');
 
 module.exports = function getPrototypeOf(O) {
 	if (Type(O) !== 'Object') {
 		throw new $TypeError('Reflect.getPrototypeOf called on non-object');
 	}
 
-	if ($gPO) {
-		return $gPO(O);
+	if (gPO) {
+		return gPO(O);
 	}
 
-	if (getDunder) {
-		var proto = getDunder(O);
-		if (proto || proto === null) {
-			return proto;
-		}
-	}
 	var type = whichBuiltinType(O);
 	if (type) {
 		var intrinsic = GetIntrinsic('%' + type + '.prototype%', true);
@@ -37,7 +29,7 @@ module.exports = function getPrototypeOf(O) {
 		return O.constructor.prototype;
 	}
 	if (O instanceof Object) {
-		return $ObjectPrototype;
+		return $Object.prototype;
 	}
 
 	/*
